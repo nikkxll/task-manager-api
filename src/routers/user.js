@@ -19,7 +19,6 @@ router.post('/users', async (req, res) => {
             token
         })
     } catch (e) {
-        console.error(e);
         res.status(400).send(e)
     }
 })
